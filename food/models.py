@@ -12,3 +12,6 @@ class Restaurant(models.Model):
     pub_date = models.DateTimeField(auto_now_add=True)
     writer = models.ForeignKey(User)
 
+    def __str__(self):
+        return self.name
+
