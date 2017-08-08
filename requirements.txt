@@ -5,3 +5,4 @@ mccabe==0.5.3
 pylint==1.6.4
 six==1.10.0
 wrapt==1.10.8
+Pillow==3.3.1
