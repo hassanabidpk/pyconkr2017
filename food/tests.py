@@ -4,13 +4,13 @@ from django.contrib.auth.models import User
 
 
 class RestaurantTestCase(TestCase):
-    
+     
     def setUp(self):
         self.client = Client()
-        writer = User.objects.create_user('test_user', \
-        'test@example.com', 'password1')
-        rest = Restaurant.objects.create(name="kfc", \
-        address="seoul", menu="burger", tags="burger", writer=writer)
+        writer = User.objects.create_user('test_user',
+                                          'test@example.com', 'password1')
+        Restaurant.objects.create(name="kfc", address="seoul",
+                                  menu="burger", tags="burger", writer=writer)
 
     def test_restaurant_has_name(self):
         """Restaurant object is created Ok with a name """

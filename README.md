@@ -28,6 +28,13 @@ $ python manage.py runserver
 
 ```
 
+## Sample data
+You can find sample images and data in dummy folder
+
 ## Rest API end point
 
 `/api/list`
+
+## Final output
+
+<img src="dummy/screenshot.png">

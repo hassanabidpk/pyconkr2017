@@ -3,7 +3,6 @@ from django.contrib.auth.models import User
 
 
 class Restaurant(models.Model):
-       
     name = models.CharField(max_length=200)
     address = models.TextField()
     photo = models.ImageField(upload_to="food/photos/", null=True, blank=True)
@@ -14,4 +13,3 @@ class Restaurant(models.Model):
 
     def __str__(self):
         return self.name
-
