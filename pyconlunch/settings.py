@@ -25,7 +25,7 @@ SECRET_KEY = '2(mq26r18&(94=#&u&(g^u5839gdfemnr399m@4@o8r5y-ga*='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["pyconlunch.azurewebsites.net", "10.10.5.145"]
 
 
 # Application definition
